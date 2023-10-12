@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+/*general css start */
+* {
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+  background: #041412;
+}
+p {
+  font-size: 20px;
+}
+
+.ham {
+  color: transparent !important;
+  background: transparent !important;
+
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  transform: translateY(-50%);
+  display: none;
+}
+.navLeft {
+  float: left;
+}
+
+.navRight {
+  float: right;
+}
+.navRight ul {
+  display: flex;
+  padding: 0;
+}
+
+.navRight li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navRight Link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.HomeBg {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../src/assets/heroimagex.png"), lightgray 50% / cover no-repeat;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  background: #041412;
+}
+
+.heroHome {
+  margin: auto;
+  color: white;
+  padding-top: 58px;
+  padding-bottom: 80px;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImgContainer {
+  width: auto;
+}
+
+.heroLogo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroHead {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.cardBody {
+  border-radius: 20px;
+  background: white;
+  padding: 59px 20px 25px 20px;
+  text-align: center;
+}
+
+.card {
+  padding: 22px 25px 25px 25px;
+}
+
+.sla {
+  padding: 36px 0;
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+/*general css end */
+/*---------------- */
+/*home css start */
+
+/*home css end */
+/*---------------- */
+
+@media only screen and (max-width: 1100px) {
+  .heroLogo {
+    width: 50%;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .backgroundImg {
+    background: url("../src/assets/heroimage.png"),
+      lightgray 50% / cover no-repeat;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 463px;
+  }
+
+  .backgroundImg.expanded {
+    background: url("../src/assets/heroimage.png"),
+      lightgray 50% / cover no-repeat;
+    height: 261px;
+    width: 100%;
+  }
+
+  .nav.expanded {
+    opacity: 0.8;
+    background: #000;
+  }
+  .ham {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 4;
+    display: block;
+  }
+
+  .navRight ul {
+    display: none;
+  }
+
+  .navRight ul {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.8;
+    background: #000;
+    border-top: 1px solid black;
+    padding-bottom: 100%;
+    padding-top: 20%;
+  }
+
+  .heroHome {
+    margin: auto;
+    color: white;
+    padding-top: 58px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: revert;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroLogo {
+    width: 100%;
+    display: unset;
+  }
+
+  .navRight li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .navRight li Link {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .navRight li:hover {
+    background-color: #eee;
+  }
+
+  .navRight.expanded ul {
+    display: block;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

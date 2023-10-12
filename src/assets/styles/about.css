@@ -1,0 +1,66 @@
+/* about us page css start */
+
+.abtHeroHead {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  display: none;
+}
+
+.abtHr {
+  display: none;
+}
+
+.abtCardBody {
+  background: white;
+  padding-left: 87px;
+  padding-right: 87px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.abtCard {
+  padding: 22px 25px 25px 25px;
+
+  left: 0px;
+  top: 270px;
+}
+
+.abtImg {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.abtHead {
+  text-align: center;
+}
+@media only screen and (max-width: 700px) {
+  .abtCardBody {
+    border-radius: 20px;
+    background: white;
+    padding: 35px 20px;
+    text-align: left;
+  }
+
+  .abtCard {
+    padding: 22px 25px 25px 25px;
+    position: absolute;
+  }
+
+  .abtHeroHead {
+    display: revert;
+  }
+
+  .abtHr {
+    display: revert;
+    color: #fff;
+    background: #fff;
+  }
+}

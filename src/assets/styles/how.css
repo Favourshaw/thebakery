@@ -1,0 +1,268 @@
+/*how to page css start */
+
+.howCardBody {
+  background: white;
+  padding: 35px 144px;
+  text-align: left;
+}
+.howHeroHead {
+  display: none;
+}
+
+.howHr {
+  display: none;
+}
+
+.howCard {
+  padding: 0;
+}
+
+.item1 {
+  grid-area: header;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 30px;
+  background: #041412;
+
+  padding: 48px;
+}
+.item2 {
+  grid-area: img;
+  margin: auto;
+  width: 70%;
+}
+.item3 {
+  grid-area: main;
+
+  color: #041412;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 30px;
+}
+.item4 {
+  grid-area: step;
+  margin: auto;
+  padding: 0px;
+}
+
+.howContainerLeft {
+  display: grid;
+  grid-template-areas:
+    " header step  img   "
+    " main step  img   ";
+  grid-template-columns: 40% 20% 40%;
+  padding-bottom: 27px;
+}
+
+.howContainerRight {
+  display: grid;
+  grid-template-areas:
+    " img step  header   "
+    " img step  main   ";
+  grid-template-columns: 40% 20% 40%;
+  padding-bottom: 27px;
+}
+
+.howStepContainer {
+  padding: 10px;
+  text-align: center;
+}
+
+.howStep1 {
+  color: #041412;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.howStep2 {
+  color: #041412;
+  font-family: Montserrat;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.howImage {
+  padding: 20px;
+}
+
+.stepImg {
+  width: 100%;
+  border-radius: 50%;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.howTitle {
+  color: #041412;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.howSub {
+  display: block;
+}
+
+/* how to page css end */
+/* ---------------- */
+
+@media only screen and (max-width: 1100px) {
+  .howCardBody {
+    background: white;
+    padding: 35px 80px;
+    text-align: left;
+  }
+
+  .item1 {
+    font-size: 25px;
+
+    padding: 25px;
+  }
+
+  .item3 {
+    grid-area: main;
+    font-size: 20px;
+    padding-left: 32px;
+    padding-right: 28px;
+  }
+
+  .item2 {
+    grid-area: img;
+    margin: auto;
+    width: 80%;
+  }
+
+  .item4 {
+    padding: 0 30px;
+  }
+
+  .howStep1 {
+    font-size: 20px;
+  }
+
+  .howStep2 {
+    font-size: 30px;
+  }
+  .howHeroHead {
+    display: none;
+  }
+
+  .howContainerLeft {
+    display: grid;
+    grid-template-areas:
+      " header step space  img   "
+      " main step  space img   ";
+    grid-template-columns: 45% 10% 15% 30%;
+    padding-bottom: 27px;
+  }
+
+  .howContainerRight {
+    display: grid;
+    grid-template-areas:
+      " header step space  img   "
+      " main step  space img   ";
+    grid-template-columns: 45% 10% 15% 30%;
+    padding-bottom: 27px;
+  }
+
+  .howHr {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .howContainerLeft {
+    grid-template-areas:
+      "header header header header header step "
+      "main main main main img img ";
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  .howContainerRight {
+    grid-template-areas:
+      "header header header header header step "
+      "main main main main img img ";
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  .howCardBody {
+    border-radius: 20px;
+    background: white;
+    padding: 35px 20px;
+    text-align: left;
+  }
+
+  .howCard {
+    padding: 22px 25px 25px 25px;
+  }
+
+  .howTitle {
+    display: none;
+  }
+
+  .item1 {
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 22px;
+  }
+
+  .item3 {
+    font-size: 14px;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin: auto;
+  }
+
+  .item2 {
+    width: 100%;
+  }
+
+  .item4 {
+    padding: 0;
+  }
+
+  .stepImg {
+    width: revert;
+    height: revert;
+    border-radius: 50%;
+    background: lightgray 50% / cover no-repeat;
+  }
+  .howStep1 {
+    font-size: 10px;
+  }
+
+  .howStep2 {
+    font-size: 18px;
+  }
+
+  .howHeroHead {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    display: revert;
+  }
+
+  .howHr {
+    display: revert;
+    color: #fff;
+    background: #fff;
+  }
+
+  .howSub {
+    display: none;
+  }
+}

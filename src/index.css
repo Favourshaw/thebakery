@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+/*general css start */
+* {
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+  background: #041412;
+}
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 61px 144px;
+  color: white;
+  text-decoration: none;
+}
+.ham {
+  color: transparent !important;
+  background: transparent !important;
+
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  transform: translateY(-50%);
+  display: none;
+}
+.navLeft {
+  float: left;
+}
+
+.navRight {
+  float: right;
+}
+.navRight ul {
+  display: flex;
+  padding: 0;
+}
+
+.navRight li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.altBg {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../src/assets/heroimage.png"), lightgray 50% / cover no-repeat;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 981x;
+}
+
+.background {
+  background: #041412;
+}
+
+.hero {
+  margin: auto;
+  color: white;
+  padding-top: 58px;
+  padding-bottom: 80px;
+}
+
+.heroLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroHead {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.cardBody {
+  border-radius: 20px;
+  background: white;
+  padding: 176px 20px 25px 20px;
+  text-align: center;
+}
+
+.newsFlex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  padding: 0 126px;
+}
+
+.card {
+  padding: 65px 144px;
+}
+
+.inputs {
+  padding: 12px 0;
+  width: 100%;
+  display: flex;
+}
+
+.inpts {
+  border: 1.5px solid #041412;
+  border-radius: 10px;
+  padding: 16px 33px;
+  color: #041412;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 55%;
+}
+
+.sbmt {
+  border-radius: 10px;
+  background: #041412;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.24px;
+  padding: 21px 36px;
+  float: left;
+}
+
+hr {
+  background: #000;
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  float: left;
+}
+
+.header {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: left;
+}
+.socialsContainer {
+  padding: 0 0 36px 25px;
+}
+
+.socials {
+  flex-direction: row;
+  gap: 7px;
+  display: none;
+}
+
+.sla {
+  padding: 36px 0;
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.break {
+  display: none;
+}
+/*general css end */
+/*---------------- */
+/*home css start */
+
+.nlTextbox {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 50%;
+}
+
+/*home css end */
+/*---------------- */
+
+@media only screen and (max-width: 1100px) {
+  .nav {
+    padding: 61px 80px;
+  }
+  .card {
+    padding: 65px;
+  }
+  .cardC {
+    width: 100%;
+  }
+  .cardBody {
+    border-radius: 20px;
+    background: white;
+    padding: 35px 36px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .newsFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+
+  hr {
+    background: #000;
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    float: unset;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .nlTextbox {
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .inputs {
+    padding: 15px 0;
+    display: flex;
+  }
+
+  .inpts {
+    padding: 18px 36px;
+    font-size: 17px;
+  }
+
+  .sbmt {
+    font-size: 17px;
+    letter-spacing: 2.24px;
+    padding: 18px 36px;
+  }
+
+  .sla {
+    padding: 6px 0;
+    justify-content: right;
+
+    flex-direction: row;
+    gap: 7px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .backgroundImg {
+    background: url("../src/assets/heroimage.png"),
+      lightgray 50% / cover no-repeat;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 463px;
+  }
+
+  .backgroundImg.expanded {
+    background: url("../src/assets/heroimage.png"),
+      lightgray 50% / cover no-repeat;
+    height: 261px;
+    width: 100%;
+  }
+
+  .nav.expanded {
+    opacity: 0.8;
+    background: #000;
+  }
+  .ham {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 4;
+    display: block;
+  }
+
+  .nav {
+    padding: 36px 25px;
+  }
+
+  .navRight ul {
+    display: none;
+  }
+
+  .navRight ul {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.8;
+    background: #000;
+    border-top: 1px solid black;
+    padding-bottom: 100%;
+    padding-top: 20%;
+  }
+
+  .navRight li {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .navRight li Link {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .navRight li:hover {
+    background-color: #eee;
+  }
+
+  .navRight.expanded ul {
+    display: block;
+  }
+  .heroImgContainer {
+    display: none;
+  }
+  p {
+    font-size: 14px;
+  }
+  .inputs {
+    padding: 12px 0;
+    width: 100%;
+    display: flex;
+  }
+
+  .inpts {
+    padding: 16px 33px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .sbmt {
+    font-size: 14px;
+    letter-spacing: 2.24px;
+    width: 100%;
+    padding: 16px 0;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .cardC {
+    left: 0px;
+    top: 270px;
+    position: absolute;
+    width: 100%;
+  }
+  .cardBody {
+    border-radius: 20px;
+    background: white;
+    padding: 35px 20px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .newsFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+
+  hr {
+    background: #000;
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    float: unset;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .nlTextbox {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+  }
+
+  .sla {
+    padding: 36px 0;
+    justify-content: right;
+    display: none;
+    flex-direction: row;
+    gap: 7px;
+  }
+}

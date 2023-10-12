@@ -1,0 +1,33 @@
+.contactCard {
+  border-radius: 30px;
+  padding-left: 76px;
+  padding-top: 96px;
+  padding-bottom: 75px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  grid-template-areas: "rights lefts";
+  grid-template-columns: 45% 55%;
+}
+.contactImg {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.right {
+  grid-area: rights;
+}
+
+.left {
+  grid-area: lefts;
+}
+
+@media only screen and (max-width: 900px) {
+  .contactCard {
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+  }
+}
