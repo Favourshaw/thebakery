@@ -17,14 +17,13 @@ const NavHome = (props) => {
   return (
     <div
       className={
-        isNavExpanded ? "backgroundImg expanded" : "backgroundImg HomeBg"
+        isNavExpanded ? "backgroundImg expanded" : "backgroundImg altBg"
       }
     >
       <div className="nav">
         <div>
           <div className="navLeft">
             <Link to="/">
-              {" "}
               <picture>
                 <source media="(min-width:750px)" srcset={LogoX} />
                 <img src={Logo} alt="logo" className="" />

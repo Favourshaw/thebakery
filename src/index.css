@@ -56,7 +56,7 @@ a {
       rgba(0, 0, 0, 0.6) 0%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url("../src/assets/heroimage.png"), lightgray 50% / cover no-repeat;
+    url("../src/assets/heroimagex.png"), lightgray 50% / cover no-repeat;
 
   background-repeat: no-repeat;
   background-size: cover;

@@ -17,7 +17,7 @@ const NavHow = (props) => {
   return (
     <div
       className={
-        isNavExpanded ? "backgroundImg expanded" : "backgroundImg HomeBg"
+        isNavExpanded ? "backgroundImg expanded" : "backgroundImg altBg"
       }
     >
       <div className="nav">
