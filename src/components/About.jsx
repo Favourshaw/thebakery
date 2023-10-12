@@ -9,6 +9,7 @@ import TwitterD from "../assets/img/twitterdark.svg";
 import InstaD from "../assets/img/instadark.svg";
 import TeleD from "../assets/img/teledark.svg";
 import "../assets/styles/about.css";
+import Socials2 from "./Socials2";
 const About = () => {
   return (
     <div className="altBg">
@@ -61,25 +62,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="socialsContainer">
-          <div className="socials">
-            <div>
-              <a>
-                <img src={Twitter} alt="twitter" />
-              </a>
-            </div>
-            <div>
-              <a>
-                <img src={Insta} alt="insta" />
-              </a>
-            </div>
-            <div>
-              <a>
-                <img src={Tele} alt="tele" />
-              </a>
-            </div>
-          </div>
-        </div>
+        <Socials2 />
       </div>
     </div>
   );

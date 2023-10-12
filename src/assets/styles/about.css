@@ -26,7 +26,7 @@
 }
 
 .abtCard {
-  padding: 22px 25px 25px 25px;
+  padding: 25px 144px;
 
   left: 0px;
   top: 270px;
@@ -41,17 +41,32 @@
 .abtHead {
   text-align: center;
 }
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 1100px) {
   .abtCardBody {
-    border-radius: 20px;
     background: white;
-    padding: 35px 20px;
+    padding: 37px;
+
     text-align: left;
+    border-radius: 20px;
+  }
+  .abtCard {
+    padding: 25px 80px;
+
+    left: 0px;
+    top: 270px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .abtCardBody {
+    padding: 35px 20px;
+    width: 100%;
   }
 
   .abtCard {
-    padding: 22px 25px 25px 25px;
+    padding: 22px 25px;
     position: absolute;
+    margin: auto;
   }
 
   .abtHeroHead {

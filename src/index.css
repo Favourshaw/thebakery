@@ -166,6 +166,10 @@ hr {
   padding: 0 0 36px 25px;
 }
 
+.socialsContainer2 {
+  padding-top: 35px;
+}
+
 .socials {
   flex-direction: row;
   gap: 7px;
@@ -262,7 +266,7 @@ hr {
   }
 
   .sla {
-    padding: 6px 0;
+    padding: 36px 0;
     justify-content: right;
 
     flex-direction: row;

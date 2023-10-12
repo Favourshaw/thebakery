@@ -6,7 +6,7 @@ import HeroLogox from "../assets/herologox.png";
 import Ham from "../assets/img/ham.svg";
 import HamX from "../assets/img/hamx.svg";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import "../assets/styles/about.css";
 import "../assets/styles/contact.css";
 import "../assets/styles/navhome.css";
@@ -23,10 +23,13 @@ const NavHome = (props) => {
       <div className="nav">
         <div>
           <div className="navLeft">
-            <picture>
-              <source media="(min-width:750px)" srcset={LogoX} />
-              <img src={Logo} alt="logo" className="" />
-            </picture>
+            <Link to="/">
+              {" "}
+              <picture>
+                <source media="(min-width:750px)" srcset={LogoX} />
+                <img src={Logo} alt="logo" className="" />
+              </picture>
+            </Link>
           </div>
           <div>
             <button

@@ -7,6 +7,7 @@
   display: grid;
   grid-template-areas: "rights lefts";
   grid-template-columns: 45% 55%;
+  justify-content: center;
 }
 .contactImg {
   width: 100%;
@@ -16,18 +17,102 @@
 
 .right {
   grid-area: rights;
+  padding-right: 62px;
 }
 
 .left {
   grid-area: lefts;
 }
 
-@media only screen and (max-width: 900px) {
+.inputsC {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.inptsC {
+  border: 1.5px solid #041412;
+  border-radius: 10px;
+  padding: 16px 33px;
+  color: #041412;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+}
+
+.sbmtC {
+  border-radius: 10px;
+  background: #041412;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.24px;
+  padding: 21px 36px;
+  float: left;
+}
+
+@media only screen and (max-width: 1100px) {
+  .contactCard {
+    padding-left: 36px;
+    padding-top: 66px;
+    padding-bottom: 75px;
+  }
+
+  .right {
+    padding-right: 20px;
+  }
+
+  .contactImg {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .inputsC {
+    padding-bottom: 0px;
+    width: 100%;
+    display: flex;
+  }
+
+  .inptsC {
+    padding: 16px 33px;
+    font-size: 14px;
+  }
+
+  .sbmtC {
+    font-size: 14px;
+    padding: 21px 36px;
+    float: none;
+    width: 100%;
+  }
+  .btn {
+    padding-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
   .contactCard {
     padding: 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 62px;
+    display: grid;
+    grid-template-areas:
+      " lefts"
+      "rights";
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  .right {
+    padding-right: 0;
+  }
+
+  .contactImg {
+    width: 100%;
+    padding: 0;
   }
 }

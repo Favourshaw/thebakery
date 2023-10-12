@@ -3,9 +3,9 @@ import Twitter from "../assets/img/twitter.svg";
 import Insta from "../assets/img/insta.svg";
 import Discord from "../assets/img/discord.svg";
 
-const Socials = () => {
+const Socials2 = () => {
   return (
-    <div className="socialsContainer">
+    <div className="socialsContainer2">
       <div className="socials">
         <div>
           <a href="https://x.com/thefxbakery?s=21">
@@ -27,4 +27,4 @@ const Socials = () => {
   );
 };
 
-export default Socials;
+export default Socials2;
