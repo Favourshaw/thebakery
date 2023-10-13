@@ -129,20 +129,22 @@ p {
 
 @media only screen and (max-width: 750px) {
   .backgroundImg {
-    background: url("../src/assets/heroimage.png"),
+    background: url("../src/assets/heroimagex.png"),
       lightgray 50% / cover no-repeat;
 
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
+    background-position: center;
     height: 463px;
   }
 
   .backgroundImg.expanded {
-    background: url("../src/assets/heroimage.png"),
+    background: url("../src/assets/heroimagesm.png"),
       lightgray 50% / cover no-repeat;
     height: 261px;
     width: 100%;
+    background-position: center;
   }
 
   .nav.expanded {

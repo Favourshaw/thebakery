@@ -60,7 +60,7 @@ a {
 
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position: 50% 50%;
   height: 981x;
 }
 
@@ -330,13 +330,14 @@ hr {
 
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: 50% 50%;
     height: 463px;
   }
 
   .backgroundImg.expanded {
-    background: url("../src/assets/heroimage.png"),
+    background: url("../src/assets/heroimagesm.png"),
       lightgray 50% / cover no-repeat;
+    background-position: 50% 50%;
     height: 261px;
     width: 100%;
   }
