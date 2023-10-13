@@ -21,9 +21,10 @@ const Subscribe = () => {
               <h1 className="header">
                 SUBSCRIBE <br /> TO OUR NEWSLETTER
               </h1>
+              <hr />
+              <br />
             </div>
-            <hr />
-            <br />
+
             <div className="nlTextbox">
               <p>
                 Subscribe to Our Newsletter for

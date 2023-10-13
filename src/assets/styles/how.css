@@ -58,7 +58,6 @@
     " header step  img   "
     " main step  img   ";
   grid-template-columns: 40% 20% 40%;
-  padding-bottom: 27px;
 }
 
 .howContainerRight {
@@ -67,7 +66,6 @@
     " img step  header   "
     " img step  main   ";
   grid-template-columns: 40% 20% 40%;
-  padding-bottom: 27px;
 }
 
 .howStepContainer {
@@ -97,7 +95,7 @@
 }
 
 .stepImg {
-  width: 100%;
+  width: 70%;
   border-radius: 50%;
   background: lightgray 50% / cover no-repeat;
 }
@@ -118,11 +116,38 @@
 /* how to page css end */
 /* ---------------- */
 
+@media only screen and (max-width: 1350px) {
+  .howCardBody {
+    background: white;
+    padding: 35px 95px;
+    text-align: left;
+  }
+  .stepImg {
+    width: 100%;
+    border-radius: 50%;
+    background: lightgray 50% / cover no-repeat;
+  }
+
+  .item1 {
+    font-size: 28px;
+    padding: 38px;
+  }
+  .item3 {
+    font-size: 25px;
+    padding: 25px;
+  }
+}
 @media only screen and (max-width: 1100px) {
   .howCardBody {
     background: white;
     padding: 35px 80px;
     text-align: left;
+  }
+
+  .stepImg {
+    width: 100%;
+    border-radius: 80%;
+    background: lightgray 50% / cover no-repeat;
   }
 
   .item1 {
