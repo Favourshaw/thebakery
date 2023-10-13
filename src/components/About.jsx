@@ -2,17 +2,12 @@ import React from "react";
 import Nav1 from "./Nav1";
 import abtImg from "../assets/img/about/abtimg.png";
 import abtImgS from "../assets/img/about/abtimgsm.png";
-import Twitter from "../assets/img/twitter.svg";
-import Insta from "../assets/img/insta.svg";
-import Tele from "../assets/img/tele.svg";
-import TwitterD from "../assets/img/twitterdark.svg";
-import InstaD from "../assets/img/instadark.svg";
-import TeleD from "../assets/img/teledark.svg";
 import "../assets/styles/about.css";
 import Socials2 from "./Socials2";
+import SocialLinkX from "./molecules/SocialLinkX";
 const About = () => {
   return (
-    <div className="altBg">
+    <div className="colorBg">
       <Nav1 name="About Us" />
       <div className="abtCard">
         <div className="abtCardBody">
@@ -44,23 +39,7 @@ const About = () => {
               market with confidence and precision. Your success is our mission.
             </p>
           </div>
-          <div className=" sla">
-            <div>
-              <a>
-                <img src={TwitterD} alt="twitter" />
-              </a>
-            </div>
-            <div>
-              <a>
-                <img src={InstaD} alt="insta" />
-              </a>
-            </div>
-            <div>
-              <a>
-                <img src={TeleD} alt="tele" />
-              </a>
-            </div>
-          </div>
+          <SocialLinkX />
         </div>
         <Socials2 />
       </div>

@@ -1,9 +1,7 @@
 import React from "react";
 import NewsL from "../assets/img/newsletter.png";
 import NewsLx from "../assets/img/newsletterx.png";
-import TwitterD from "../assets/img/twitterdark.svg";
-import InstaD from "../assets/img/instadark.svg";
-import TeleD from "../assets/img/teledark.svg";
+import SocialLinkX from "./molecules/SocialLinkX";
 
 const Subscribe = () => {
   return (
@@ -30,7 +28,7 @@ const Subscribe = () => {
                 Subscribe to Our Newsletter for
                 <span className="break">
                   <br />
-                </span>
+                </span>{" "}
                 Exclusive Market Updates, Trading Tips, and Financial Insights!
               </p>
             </div>
@@ -55,23 +53,7 @@ const Subscribe = () => {
             </form>
           </div>
         </div>
-        <div className=" sla">
-          <div>
-            <a>
-              <img src={TwitterD} alt="twitter" />
-            </a>
-          </div>
-          <div>
-            <a>
-              <img src={InstaD} alt="insta" />
-            </a>
-          </div>
-          <div>
-            <a>
-              <img src={TeleD} alt="tele" />
-            </a>
-          </div>
-        </div>
+        <SocialLinkX />
       </div>
     </div>
   );

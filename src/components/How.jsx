@@ -61,7 +61,7 @@ const How = () => {
               </div>
               <div className="item3">
                 - Check your email for a welcome message from "The Bakery."{" "}
-                <br />- This email will contain a link to our telegram group.
+                <br />- This email will contain a link to our discord group.
               </div>
               <div className="item4">
                 <div className="howStepContainer">
@@ -87,7 +87,7 @@ const How = () => {
               </div>
               <div className="item3">
                 - Check your email for a welcome message from "The Bakery."
-                <br />- This email will contain a link to our telegram group.
+                <br />- This email will contain a link to our discord group.
               </div>
               <div className="item4">
                 <div className="howStepContainer">

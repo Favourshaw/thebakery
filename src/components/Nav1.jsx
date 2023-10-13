@@ -8,12 +8,14 @@ import { useState } from "react";
 import "../assets/styles/about.css";
 import "../assets/styles/contact.css";
 import { Link } from "react-router-dom";
-import NavMenu from "./NavMenu";
+import NavMenu from "./molecules/NavMenu";
 
 const Nav1 = (props) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
-    <div className={isNavExpanded ? "backgroundImg expanded" : "backgroundImg"}>
+    <div
+      className={isNavExpanded ? "backgroundImg expanded" : "backgroundImg "}
+    >
       <div className="nav">
         <div>
           <div className="navLeft">

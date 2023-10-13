@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import "../assets/styles/about.css";
 import "../assets/styles/contact.css";
 import "../assets/styles/navhome.css";
-import NavMenu from "./NavMenu";
+import NavMenu from "./molecules/NavMenu";
 
 const NavHome = (props) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);

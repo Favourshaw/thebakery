@@ -8,9 +8,10 @@ import DiscordD from "../assets/img/discorddark.svg";
 import "../assets/styles/about.css";
 import "../assets/styles/contact.css";
 import Socials2 from "./Socials2";
+import SocialLinkX from "./molecules/SocialLinkX";
 const Contact = () => {
   return (
-    <div className="">
+    <div className="colorBg">
       <Nav1 name="Contact Us" />
 
       <div className="abtCard">
@@ -64,7 +65,7 @@ const Contact = () => {
                   <div className="btn">
                     <input
                       type="submit"
-                      value="SEND"
+                      value="SUBMIT"
                       className="sbmtC"
                       name="submit"
                     />
@@ -72,23 +73,7 @@ const Contact = () => {
                 </form>
               </div>
             </div>
-            <div className="sla">
-              <div>
-                <a href="https://x.com/thefxbakery?s=21">
-                  <img src={TwitterD} alt="twitter" />
-                </a>
-              </div>
-              <div>
-                <a href="https://instagram.com/thebak.ery">
-                  <img src={InstaD} alt="insta" />
-                </a>
-              </div>
-              <div>
-                <a href="#">
-                  <img src={DiscordD} alt="tele" />
-                </a>
-              </div>
-            </div>
+            <SocialLinkX />
           </div>
         </div>
         <Socials2 />

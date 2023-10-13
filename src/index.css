@@ -68,6 +68,24 @@ a {
   background: #041412;
 }
 
+.colorBg {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("../src/assets/heroimagex.png"), lightgray 50% / cover no-repeat;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 981x;
+}
+
+.background {
+  background: #041412;
+}
+
 .hero {
   margin: auto;
   color: white;
@@ -183,7 +201,7 @@ hr {
   justify-content: right;
   display: flex;
   flex-direction: row;
-  gap: 7px;
+  gap: 17px;
 }
 
 .break {
@@ -390,7 +408,7 @@ hr {
   }
 
   .navRight li:hover {
-    background-color: #eee;
+    background-color: transparent;
   }
 
   .navRight.expanded ul {
