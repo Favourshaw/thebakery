@@ -26,6 +26,7 @@
 
 .inputsC {
   padding: 12px 0;
+  padding-bottom: 0;
   width: 100%;
 }
 
@@ -41,6 +42,9 @@
   line-height: normal;
   width: 90%;
 }
+.btn {
+  padding-top: 12px;
+}
 
 .sbmtC {
   border-radius: 10px;
@@ -52,7 +56,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 3.24px;
-  padding: 21px 36px;
+  padding: 18px 46px;
   float: left;
 }
 
@@ -68,6 +72,13 @@
     padding: 18px 36px;
     float: none;
     width: 80%;
+  }
+  .inputsC {
+    padding-bottom: 0px;
+  }
+
+  .inptsC {
+    font-size: 16px;
   }
 }
 
