@@ -396,7 +396,7 @@ hr {
   .navRight.expanded ul {
     display: block;
   }
-  .heroImgContainer {
+  .hidden {
     display: none;
   }
   p {

@@ -46,7 +46,7 @@ const NavHow = (props) => {
         </div>
       </div>
       <div className="heroHome">
-        <div className="heroImgContainer">
+        <div className="heroImgContainer hidden">
           <picture>
             <source media="(min-width:750px)" srcset={HeroLogox} />
             <img src={HeroLogosm} alt="" className="heroLogo" />
