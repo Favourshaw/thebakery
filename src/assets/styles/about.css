@@ -81,6 +81,7 @@
   .abtCard {
     padding: 22px 25px;
     position: absolute;
+    top: 210px;
     margin: auto;
   }
 

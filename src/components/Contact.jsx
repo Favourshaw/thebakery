@@ -26,7 +26,7 @@ const Contact = () => {
                 </picture>
               </div>
               <div className="right">
-                <div className="ContactHead">
+                <div className="contactHead">
                   <p>
                     Feel free to contact us anytime. We will get back to you as
                     soon as we can!

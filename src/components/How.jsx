@@ -49,7 +49,7 @@ const How = () => {
 
             <div className="howContainerRight">
               <div className="item1">
-                <p>Receive Welcome Email and Access Details</p>
+                <p>Receive Welcome Memo and Access Details</p>
               </div>
               <div className="item2">
                 <div className="howImage">
@@ -60,8 +60,8 @@ const How = () => {
                 </div>
               </div>
               <div className="item3">
-                - Check your email for a welcome message from "The Bakery."{" "}
-                <br />- This email will contain a link to our discord group.
+                - You will receive a welcome message from "The Bakery." <br />-
+                This message will contain a link to our discord channel.
               </div>
               <div className="item4">
                 <div className="howStepContainer">

@@ -90,7 +90,7 @@ a {
   margin: auto;
   color: white;
   padding-top: 58px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
 }
 
 .heroLogo {
@@ -420,6 +420,10 @@ hr {
   p {
     font-size: 14px;
   }
+
+  .hero {
+    padding-top: 48px;
+  }
   .inputs {
     padding: 12px 0;
     width: 100%;
@@ -445,7 +449,7 @@ hr {
 
   .cardC {
     left: 0px;
-    top: 270px;
+    top: 210px;
     position: absolute;
     width: 100%;
   }
