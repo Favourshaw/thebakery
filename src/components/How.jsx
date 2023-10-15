@@ -75,7 +75,7 @@ const How = () => {
 
             <div className="howContainerLeft">
               <div className="item1">
-                <p>Receive Welcome Email and Access Details</p>
+                <p>Join the Discord Channel</p>
               </div>
               <div className="item2">
                 <div className="howImage">
@@ -86,8 +86,11 @@ const How = () => {
                 </div>
               </div>
               <div className="item3">
-                - Check your email for a welcome message from "The Bakery."
-                <br />- This email will contain a link to our discord group.
+                - Download the Discord app if you don't have it already.
+                <br />- Click on the provided link in the welcome memo to join
+                our private Discord channel.
+                <br />- This is where you'll receive real-time market insights
+                and trading signals.
               </div>
               <div className="item4">
                 <div className="howStepContainer">
@@ -101,7 +104,7 @@ const How = () => {
 
             <div className="howContainerRight">
               <div className="item1">
-                <p>Join the Discord Channel</p>
+                <p>Start Making the Dough</p>
               </div>
               <div className="item2">
                 <div className="howImage">
@@ -112,18 +115,17 @@ const How = () => {
                 </div>
               </div>
               <div className="item3">
-                - Download the Discord app if you don't have it already.
-                <br />
-                - Click on the provided link in the welcome email to join our
-                private Discord channel.
-                <br />- This is where you'll receive real-time market insights
-                and trading signals.
+                - Armed with our expert insights and strategies, start trading
+                in the Forex market with confidence.
+                <br />- Practice sound risk management and master the psychology
+                of trading.
+                <br />- Watch your profits rise like freshly baked bread!
               </div>
               <div className="item4">
                 <div className="howStepContainer">
                   <p className="howStep1">
                     STEP <br />
-                    <span className="howStep2">04</span>{" "}
+                    <span className="howStep2">04</span>
                   </p>
                 </div>
               </div>
