@@ -17,7 +17,7 @@ const SocialLinkSm = () => {
         </a>
       </div>
       <div>
-        <a href="https://discord.gg/RrESG2CN">
+        <a href="https://discord.gg/2UkuKhwjtg">
           <img src={Discord} alt="discord" />
         </a>
       </div>

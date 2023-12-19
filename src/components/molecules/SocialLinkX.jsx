@@ -17,7 +17,7 @@ const SocialLinkX = () => {
         </a>
       </div>
       <div>
-        <a href="https://discord.gg/RrESG2CN">
+        <a href="https://discord.gg/2UkuKhwjtg">
           <img src={DiscordX} alt="discord" />
         </a>
       </div>
